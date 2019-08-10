@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>lesson-6</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<div id="big_picture"></div>
+<div id="gallery">
+    <img id="image_1" onclick="changeBigPicture()" src="img/gallery/small/1.jpg">
+    <img id="image_2" onclick="changeBigPicture()" src="img/gallery/small/2.jpg">
+    <img id="image_3" onclick="changeBigPicture()" src="img/gallery/small/3.jpg">
+</div>
+
+<div onclick="alert('Обработчик для Div сработал!')">
+    <p>Кликните сюда <code>CLICK</code>, а сработает обработчик для DIV</p>
+</div>
+
+<a href="/" onclick="return false">Нажми здесь</a>
+<a href="/" onclick="event.preventDefault()">здесь</a>
+
+<hr>
+
+<div class="content">
+    <div id="product" class="solution">
+        <p>Выберите товары:<br></p>
+    </div>
+    <div id="cart" class="solution">
+
+    </div>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

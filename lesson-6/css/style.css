@@ -1,0 +1,16 @@
+#big_picture img {
+    width: 600px;
+}
+
+#gallery img {
+    width: 197px;
+}
+
+ul {
+    list-style: none;
+}
+
+hr {
+    height: 5px;
+    background-color: #000;
+}

@@ -1,0 +1,31 @@
+#template {
+    display: none;
+}
+
+.picture {
+    width: 200px;
+    cursor: pointer;
+}
+
+.overlay {
+    background-color: #7777777a;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;
+}
+
+.modal {
+    background-color: #ffb578;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    margin: 100px auto;
+}
+
+.preview {
+    width: 400px;
+    margin: 20px auto;
+}
